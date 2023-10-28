@@ -11,13 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('kode_pegawai');
-            $table->string("nama");
-            $table->string("password");
-            $table->string("email");
-            $table->string("role");
-            $table->timestamps();
+        Schema::create('direktorat', function (Blueprint $table) {
+            $table->id('id_direktorat');
+            $table->foreignId('id_kementerian')->constrained('kementrian','id_kementerian');
         });
     }
 
@@ -26,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('id_direktorat');
     }
 };

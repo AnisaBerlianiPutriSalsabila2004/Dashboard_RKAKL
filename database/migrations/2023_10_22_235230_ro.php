@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('kode_pegawai');
-            $table->string("nama");
-            $table->string("password");
-            $table->string("email");
-            $table->string("role");
-            $table->timestamps();
+        Schema::create('ro', function (Blueprint $table) {
+            $table->id('id_ro');
+            $table->foreignId('id_kro')->constrained('kro','id_kro');
+            $table->strings('nama');
+            $table->string('instansi');
         });
     }
 
@@ -26,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('id_ro');
     }
 };
