@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\login_controller;
-use App\Http\Controllers\LoginController;
+use App\Http\Controllers\Auth\Login_Controller;
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +16,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::controller(login_controller::class)->group(function() {
-    Route::get('/', 'login')->name('login');
+Route::controller(Login_Controller::class)->group(function() {
+    Route::get('/register', 'register')->name('register');
+    Route::post('/store', 'store')->name('store');
+    Route::get('/login', 'login')->name('login');
+    Route::post('/authenticate', 'authenticate')->name('authenticate');
+    Route::get('/dashboard', 'dashboard')->name('dashboard');
+    Route::post('/logout', 'logout')->name('logout');
+   });
+
+   Route::get('/test',function(){
+        User::create([
+            'nama'=> 'test',
+            'email'=> 'test@mail.com',
+            'password'=> bcrypt('password'),
+        ]);
    });

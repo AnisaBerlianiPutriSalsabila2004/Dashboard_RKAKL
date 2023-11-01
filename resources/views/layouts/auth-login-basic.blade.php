@@ -142,13 +142,14 @@
               <h4 class="mb-2 fw-semibold" style="color: white;">Welcome to RKAKL! </h4>
               <p class="mb-4" style="color: white;">Rencana Kerja dan Anggaran Kementerian Negara/Lembaga</p>
 
-              <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+              <form id="formAuthentication" class="mb-3" action="{{ route('authenticate') }}" method="POST">
+                @csrf
                 <div class="form-floating form-floating-outline mb-3">
                   <input
                     type="text"
                     class="form-control"
                     id="email"
-                    name="email-username"
+                    name="email" value="{{ old('email') }}"
                     placeholder="Enter your email or username"
                     autofocus />
                   <label for="email">Email</label>
