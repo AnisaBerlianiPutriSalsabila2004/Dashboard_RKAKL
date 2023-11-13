@@ -61,11 +61,13 @@
     .body {
       background-color: white;
     }
+
     .sayang {
       background-color: #324C91;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
       color: white;
     }
+
     .logo {
       width: 250px;
       height: 60px;
@@ -75,6 +77,27 @@
 
     .white {
       color: white;
+    }
+
+    .iye {
+        margin-right: 40px;
+        text-align: right;
+        position: relative;
+        float: left;
+    }
+
+    .ha {
+        width: 45px;
+        height: 21px;
+        margin-top: 9px;
+        margin-bottom: -110px;
+        margin-right: -10px;
+    }
+
+    .iki {
+        margin-right: 210px;
+        padding-left: 14px;
+        display: block;
     }
   </style>
 
