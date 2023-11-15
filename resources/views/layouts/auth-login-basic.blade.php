@@ -28,33 +28,33 @@
       rel="stylesheet" />
 
     <!-- Icons -->
-    <link rel="stylesheet" href="../../assets/vendor/fonts/materialdesignicons.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/materialdesignicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
     <!-- Menu waves for no-customizer fix -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="css/rtl/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="css/demo.css" />
+    <link rel="stylesheet" href="assets/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
     <!-- Vendor -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/formvalidation/dist/css/formValidation.min.css" />
 
     <!-- Page CSS -->
     <!-- Page -->
     <link rel="stylesheet" href="css/pages/page-auth.css" />
     <!-- Helpers -->
-    <script src="../../assets/vendor/js/helpers.js"></script>
+    <script src="assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="../../assets/vendor/js/template-customizer.js"></script>
+    <script src="assets/vendor/js/template-customizer.js"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="../../assets/js/config.js"></script>
+    <script src="assets/js/config.js"></script>
   </head>
   <style>
     .body {
@@ -142,14 +142,13 @@
               <h4 class="mb-2 fw-semibold" style="color: white;">Welcome to RKAKL! </h4>
               <p class="mb-4" style="color: white;">Rencana Kerja dan Anggaran Kementerian Negara/Lembaga</p>
 
-              <form id="formAuthentication" class="mb-3" action="{{ route('authenticate') }}" method="POST">
-                @csrf
+              <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
                 <div class="form-floating form-floating-outline mb-3">
                   <input
                     type="text"
                     class="form-control"
                     id="email"
-                    name="email" value="{{ old('email') }}"
+                    name="email-username"
                     placeholder="Enter your email or username"
                     autofocus />
                   <label for="email">Email</label>

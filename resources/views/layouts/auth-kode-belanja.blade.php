@@ -19,6 +19,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/flaticon/flaticon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,9 +35,9 @@
     <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="css/rtl/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="css/demo.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
@@ -47,7 +48,7 @@
     <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="css/pages/cards-statistics.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/pages/cards-statistics.css" />
     <!-- Helpers -->
     <script src="../../assets/vendor/js/helpers.js"></script>
 
@@ -61,16 +62,14 @@
     .body {
       background-color: white;
     }
-
     .sayang {
       background-color: #324C91;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
       color: white;
     }
-
     .logo {
-      width: 250px;
-      height: 60px;
+      width: 220px;
+      height: 48px;
       margin-top: 30px;
       margin-bottom: -40px;
     }
@@ -179,7 +178,7 @@
           <ul class="menu-inner py-1 sayang">
             <!-- Dashboards -->
             <li class="menu-item active open">
-              <a href="javascript:void(0);" class="menu-link">
+              <a href="javascript:void(0);" class="menu-link" style="background-color: #30334E; margin-top: 10px;">
                 <i class="menu-icon tf-icons mdi mdi-home-outline" style="color: white;"></i>
                 <div data-i18n="Dashboards" style="color: white;">Dashboards</div>
               </a>
@@ -205,7 +204,7 @@
                   <li class="menu-item">
                     <a href="app-invoice-list.html" class="menu-link">
                       <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
-                      <div data-i18n="List" style="color: white;">Kode Belanja</div>
+                      <div .data-i18n="List" style="color: white;">Kode Belanja</div>
                     </a>
                   </li>
                   <li class="menu-item">
@@ -709,56 +708,117 @@
           <!-- Content wrapper -->
           <div class="content-wrapper">
 
-          <!-- Content -->
+            <!-- Content -->
 
-          <div class="container-xxl flex-grow-1 container-p-y">
+            <div class="container-xxl flex-grow-1 container-p-y">
 
-            <!-- Header -->
-            <div class="row">
-              <div class="col-12">
-                <div class="card mb-4">
-                  <div class="user-profile-header-banner">
-                    <img src="pict.jpg" alt="Banner image" class="rounded-top" style="width: 1228px;" />
-                  </div>
-                  <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
-                    <div class="flex-shrink-0 mt-n2 mx-sm-0 mx-auto">
-                      <img
-                        src="../../assets/img/avatars/1.png"
-                        alt="user image"
-                        class="d-block h-auto ms-0 ms-sm-4 rounded user-profile-img"
-                        style="width: 140px;"/>
-                    </div>
-                    <div class="flex-grow-1 mt-3 mt-sm-5">
-                      <div
-                        class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-4 flex-md-row flex-column gap-4">
-                        <div class="user-profile-info">
-                          <h4>John Doe</h4>
-                          <ul
-                            class="list-inline mb-0 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-2">
-                            <li class="list-inline-item">
-                              <i class="mdi mdi-invert-colors me-1 mdi-20px"></i
-                              ><span class="fw-semibold">Super Admin</span>
-                            </li>
-                            <li class="list-inline-item">
-                              <i class="mdi mdi-map-marker-outline me-1 mdi-20px"></i>
-                              <span class="fw-semibold">Yogyakarta</span>
-                            </li>
-                            <li class="list-inline-item">
-                              <i class="mdi mdi-calendar-blank-outline me-1 mdi-20px"></i>
-                              <span class="fw-semibold"> Joined April 2021</span>
-                            </li>
-                          </ul>
-                        </div>
-                        <a href="javascript:void(0)" class="btn btn-primary">
-                          <i class="mdi mdi-account-check-outline me-1"></i>Connected
-                        </a>
+              <div class="col-lg-12">
+                  <div class="card text-right">
+                      <div class="card-header">
                       </div>
-                    </div>
+                      <div class="card-body">
+                          <div class="basic-form">
+                              <form>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <img src="hai.png" class="ha">
+                                      <label class="col-sm-3 col-form-label">Tahun Anggaran*</label>
+                                      <div class="col" style="padding-right: 270px;">
+                                        <select id="collapsible-state" class="select2 form-select" data-allow-clear="true">
+                                            <option value="">2024</option>
+                                            <option value="AL">2023</option>
+                                            <option value="AK">2022</option>
+                                            <option value="AZ">2021</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <img src="hai.png" class="ha">
+                                      <label class="col-sm-3 col-form-label">Kode Akun</label>
+                                      <div class="col" style="padding-right: 8px;">
+                                        <select id="collapsible-state" class="select2 form-select" data-allow-clear="true">
+                                            <option value="">521253</option>
+                                            <option value="AL">521254</option>
+                                            <option value="AK">521255</option>
+                                            <option value="AZ">521256</option>
+                                        </select>
+                                      </div>
+                                      <div class="col">
+                                        <input
+                                          type="text"
+                                          id="collapsible-fullname"
+                                          class="form-control iki"
+                                          placeholder="nama akun" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <div class="mb-3 row">
+                                    <div class="col-md-6">
+                                      <div class="row">
+                                      <img src="hai.png" class="ha">
+                                      <label class="col-sm-3 col-form-label">Judul Laporan</label>
+                                      <div class="col">
+                                        <input type="text" class="form-control" placeholder="judul akun belanja">
+                                      </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 row">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                          <img src="hai.png" class="ha">
+                                          <label class="col-sm-3 col-form-label">Rincian Anggaran</label>
+                                          <div class="col">
+                                            <input
+                                              type="text"
+                                              id="collapsible-fullname"
+                                              class="form-control"
+                                              placeholder="rincian anggaran" />
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="mb-3 row">
+                                      <div class="col-md-6">
+                                        <div class="row">
+                                          <img src="hai.png" class="ha">
+                                          <label class="col-sm-3 col-form-label">Penanda Tangan</label>
+                                          <div class="col">
+                                            <input
+                                              type="text"
+                                              id="collapsible-fullname"
+                                              class="form-control"
+                                              placeholder="NIP" />
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="row">
+                                          <div class="col-sm-9">
+                                            <input
+                                              type="text"
+                                              id="collapsible-phone"
+                                              class="form-control phone-mask"
+                                              placeholder="nama"
+                                              aria-label="658 799 8941" />
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
                   </div>
-                </div>
               </div>
-            </div>
-            <!--/ Header -->
+              <p></p>
+              <button class="btn btn-danger btn-destroy" style="margin-left: 1020px;">Delete</button>
+              <button class="btn btn-primary btn-initialize">Back</button>
+
+              <!-- Content -->
 
             <!-- Content -->
 
@@ -788,7 +848,7 @@
     <!-- build:js assets/vendor/js/core.js -->
     <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
     <script src="../../assets/vendor/libs/popper/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
     <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
 
@@ -796,7 +856,7 @@
     <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
     <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
 
-    <script src="js/menu.js"></script>
+    <script src="../../assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
@@ -805,9 +865,9 @@
     <script src="../../assets/vendor/libs/swiper/swiper.js"></script>
 
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="js/dashboards-ecommerce.js"></script>
+    <script src="../../assets/js/dashboards-ecommerce.js"></script>
   </body>
 </html>
