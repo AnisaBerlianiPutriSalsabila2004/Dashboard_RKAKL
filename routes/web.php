@@ -20,4 +20,4 @@ Route::controller(login_controller::class)->group(function() {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::get('/satker', 'satker')->name('satker');
     Route::get('/shopping', 'shopping')->name('shopping');
-   });
+});
