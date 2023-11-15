@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('program', function (Blueprint $table) {
             $table->id('id_program');
             $table->foreignId("id_unit")->constrained('unit','id_unit');
-            $table->foreignId('id_user')->constrained('users','kode_pegawai');
-            $table->strings('nama_program');
+            $table->foreignId('id_users')->constrained('users','kode_pegawai');
+            $table->string('nama_program');
         });
     }
 

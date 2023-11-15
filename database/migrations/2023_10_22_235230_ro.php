@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('ro', function (Blueprint $table) {
             $table->id('id_ro');
             $table->foreignId('id_kro')->constrained('kro','id_kro');
-            $table->strings('nama');
+            $table->string('nama');
             $table->string('instansi');
         });
     }

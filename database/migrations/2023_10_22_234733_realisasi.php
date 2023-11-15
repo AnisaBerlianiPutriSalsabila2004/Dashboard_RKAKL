@@ -20,11 +20,11 @@ return new class extends Migration
         });
     }
 
-    /**
+    /**x
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('id_unit');
+        Schema::dropIfExists('realisasi');
     }
 };
