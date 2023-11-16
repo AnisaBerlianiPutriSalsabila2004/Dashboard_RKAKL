@@ -12,6 +12,14 @@ use Illuminate\Support\Facades\Hash;
 
 class Login_Controller extends Controller
 {
+    public function test()
+    {
+        return view('dashboard.sidebar');
+    }
+    public function test2()
+    {
+        return view('dashboard.login');
+    }
     public function login(){
         return view('layouts.auth-login-basic');
     }

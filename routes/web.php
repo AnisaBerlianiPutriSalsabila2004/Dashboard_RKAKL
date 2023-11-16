@@ -23,6 +23,8 @@ Route::controller(Login_Controller::class)->group(function() {
     Route::post('/authenticate', 'authenticate')->name('authenticate');
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::post('/logout', 'logout')->name('logout');
+    Route::get('/testing', 'test');
+    Route::get('/testing2', 'test2');
    });
 
    Route::get('/test',function(){
