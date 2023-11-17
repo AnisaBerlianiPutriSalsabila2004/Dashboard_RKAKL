@@ -20,6 +20,10 @@ class Login_Controller extends Controller
     {
         return view('dashboard.login');
     }
+    public function test3()
+    {
+        return view('dashboard.profile');
+    }
     public function login(){
         return view('layouts.auth-login-basic');
     }

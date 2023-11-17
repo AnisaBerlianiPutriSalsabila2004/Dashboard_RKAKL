@@ -25,6 +25,7 @@ Route::controller(Login_Controller::class)->group(function() {
     Route::post('/logout', 'logout')->name('logout');
     Route::get('/testing', 'test');
     Route::get('/testing2', 'test2');
+    Route::get('/testing3', 'test3');
    });
 
    Route::get('/test',function(){
