@@ -20,4 +20,11 @@ Route::controller(login_controller::class)->group(function() {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::get('/satker', 'satker')->name('satker');
     Route::get('/shopping', 'shopping')->name('shopping');
+    Route::get('/login', 'login')->name('login');
+    Route::get('/authbelanja', 'authbelanja')->name('authbelanja');
+    Route::get('/shopping', 'shopping')->name('shopping');
+    Route::get('/errorr', 'errorr')->name('errorr');
+    Route::get('/updatesatker', 'updatesatker')->name('updatesatker');
+    Route::get('/kodebelanja', 'kodebelanja')->name('kodebelanja');
+    Route::get('/rkaklbelanja', 'rkaklbelanja')->name('rkaklbelanja');
    });

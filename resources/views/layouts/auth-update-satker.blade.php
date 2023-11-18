@@ -5,7 +5,7 @@
   class="light-style layout-navbar-fixed layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="assets/"
+  data-assets-path="../../assets/"
   data-template="vertical-menu-template">
   <head>
     <meta charset="utf-8" />
@@ -18,8 +18,8 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="assets/img/flaticon/flaticon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/flaticon/flaticon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,26 +29,26 @@
       rel="stylesheet" />
 
     <!-- Icons -->
-    <link rel="stylesheet" href="assets/vendor/fonts/materialdesignicons.css" />
-    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/materialdesignicons.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
     <!-- Menu waves for no-customizer fix -->
-    <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/pages/cards-statistics.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/pages/cards-statistics.css" />
     <!-- Helpers -->
     <script src="../../assets/vendor/js/helpers.js"></script>
 
@@ -854,7 +854,7 @@
                   </div>
               </div>
               <p></p>
-              <button type="button" class="btn btn-success" style="margin-left: 985px;">Download</button>
+              <button type="button" class="btn btn-success" style="margin-left: 999px;">Confirm</button>
               <button class="btn btn-primary btn-initialize">Back</button>
 
               <!-- Content -->
@@ -885,28 +885,28 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="xassets/vendor/libs/popper/popper.js"></script>
-    <script src="xassets/vendor/js/bootstrap.js"></script>
-    <script src="xassets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="xassets/vendor/libs/node-waves/node-waves.js"></script>
+    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
 
-    <script src="xassets/vendor/libs/hammer/hammer.js"></script>
-    <script src="xassets/vendor/libs/i18n/i18n.js"></script>
-    <script src="xassets/vendor/libs/typeahead-js/typeahead.js"></script>
+    <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
 
-    <script src="xassets/vendor/js/menu.js"></script>
+    <script src="../../assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="xassets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-    <script src="xassets/vendor/libs/apex-charts/apexcharts.js"></script>
-    <script src="xassets/vendor/libs/swiper/swiper.js"></script>
+    <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <script src="../../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="../../assets/vendor/libs/swiper/swiper.js"></script>
 
     <!-- Main JS -->
-    <script src="xassets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="xassets/js/dashboards-ecommerce.js"></script>
+    <script src="../../assets/js/dashboards-ecommerce.js"></script>
   </body>
 </html>

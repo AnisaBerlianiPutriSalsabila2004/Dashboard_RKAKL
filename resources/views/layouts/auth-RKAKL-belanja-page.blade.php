@@ -5,7 +5,7 @@
   class="light-style layout-navbar-fixed layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="assets/"
+  data-assets-path="../../assets/"
   data-template="vertical-menu-template">
   <head>
     <meta charset="utf-8" />
@@ -18,8 +18,8 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="assets/img/flaticon/flaticon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/flaticon/flaticon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,26 +29,26 @@
       rel="stylesheet" />
 
     <!-- Icons -->
-    <link rel="stylesheet" href="assets/vendor/fonts/materialdesignicons.css" />
-    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/materialdesignicons.css" />
+    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
     <!-- Menu waves for no-customizer fix -->
-    <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/pages/cards-statistics.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/pages/cards-statistics.css" />
     <!-- Helpers -->
     <script src="../../assets/vendor/js/helpers.js"></script>
 
@@ -97,18 +97,6 @@
         margin-right: 210px;
         padding-left: 14px;
         display: block;
-    }
-
-    .box1{
-      width:150px;
-      height:150px;
-      background:green;
-    }
-
-    .box2{
-      width:230px;
-      height:230px;
-      background:blue;
     }
   </style>
 
@@ -192,7 +180,7 @@
             <li class="menu-item active open">
               <a href="javascript:void(0);" class="menu-link" style="background-color: #30334E; margin-top: 10px;">
                 <i class="menu-icon tf-icons mdi mdi-home-outline" style="color: white;"></i>
-                <div style="color: white;">Dashboards</div>
+                <div data-i18n="Dashboards" style="color: white;">Dashboards</div>
               </a>
             </li>
 
@@ -209,19 +197,19 @@
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons mdi mdi-file-document-outline me-3" style="color: white;"></i>
+                  <i  class="menu-icon tf-icons mdi mdi-file-document-outline me-3" style="color: white;"></i>
                   <div style="color: white;">Master Data</div>
                 </a>
                 <ul class="menu-sub">
                   <li class="menu-item">
                     <a href="app-invoice-list.html" class="menu-link">
-                      <i class="menu-icon tf-icons mdi mdi-file-document-outline me-3" style="color: white;"></i>
+                      <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
                       <div style="color: white;">Kode Belanja</div>
                     </a>
                   </li>
                   <li class="menu-item">
                     <a href="app-invoice-preview.html" class="menu-link">
-                      <i class="menu-icon tf-icons mdi mdi-file-document-outline me-3" style="color: white;"></i>
+                      <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
                       <div style="color: white;">Kode SATKER</div>
                     </a>
                   </li>
@@ -237,13 +225,13 @@
             <!-- Icons -->
             <li class="menu-item">
               <a href="icons-mdi.html" class="menu-link">
-                <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJJJREFUSEvtldENgCAMRHubuImO4iiO5mZnNPFHQGtphMTyTx99vQZIo4NGXAnwZ+ZD9aGa5OLpHEBSL6uaJJ3BCacvsGe3pVqR6qJlkpN1BADW61216pqkA9ClOtdZS3Ab1db5xjqdBtSpLikjua/KeDeKqlT3CJ5FZHjoWPcteic4V696xtZHBthq7vW9/6neAJP9KB84NK5hAAAAAElFTkSuQmCC"/>
+                <img class="me-3" class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJJJREFUSEvtldENgCAMRHubuImO4iiO5mZnNPFHQGtphMTyTx99vQZIo4NGXAnwZ+ZD9aGa5OLpHEBSL6uaJJ3BCacvsGe3pVqR6qJlkpN1BADW61216pqkA9ClOtdZS3Ab1db5xjqdBtSpLikjua/KeDeKqlT3CJ5FZHjoWPcteic4V696xtZHBthq7vW9/6neAJP9KB84NK5hAAAAAElFTkSuQmCC"/>
                 <div style="color: white;">Menu Management</div>
               </a>
             </li>
             <li class="menu-item">
                 <a href="icons-mdi.html" class="menu-link">
-                  <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA49JREFUSEvFlkuoVnUUxX+L1KJQemElJY1CapKlkJDkAx8DaRBZGT20KGoSmWWJDWogaRriQCihLJDUVCIhyh5WiFBWiqCTaBBGqSlmapEZ7Vgf+3yce+45955PBPfk8v3vPnv999p7r/8W58l0nnDpGTgirgXuAi7PSx8Dtkj6pZckegKOiAnAduCiCsgp4A5Ju9uC9wr8HjC7Ifg6SQ+ec+CIGAp8DdwCfCVpkkEi4ktnCzjbCZL+aQNem3HW8WHHBdYC44C3gCsz6HZJUxP4c2BKnh8B5gF7gLl59rakX6uX6QccEVcBewH/tf0OXArdRjwIzJe0MYHvB1YA16S/L3scuCx/HwBulXS0DF4H3FTHE8BCZy7pTDlIluFxYBlwSQ3VGyXd1wgcEdOBbengjNYBrwCHTaGknweqX0RcD7yZJVkMPADcm9/MkPRJ8X2fjCPCozIZ+AMYI+lQFSgi7gaeLNXVNV4t6f0a36uBH4DhwGeSpjUB7wduBEzlC8BKSa5ZxyJiOfBsQ9YvSXq55Ouk5if9Q9w3km5uAnYd3i010nJJrqtB7wE6DQX8DbgXbD4vBGW6pE/T/zXgmfT5z5RL2lwLnB/cBpi+i13jQhQiwnM6NsswTtKP6T8G+D79t0mamefrASfyp8siaVdjc5Vo8g1N1RJJL2ag08Aw4HVJrnHXIsIz7vk9JumK9HeHm62/JPXr9CYBMZUXAkslLcpA1mMHeEPSExXgNcBjwElJI9L/VeA54JQkN1cfq5vjMtUbJM3JQDuA21Mcxkr6Kc9vAL4FDFhWtE2AJ2BwqiPCM+faFBcqN9edwAd5bWfvwBdUmmumpI4ORITVbEH6ezJmS9pS21wRsQ+4KcfJ9VlVGaeCvipz/v28JP+/YxHhyz8N+MzjtEeSH5iOVQWkEPzBBOQpYGLG2JoN91H1NhFRFpBux9cBzwA+zgCFZFr6XKc2knldvmZuwiUVyezOeD/gpOhsH4lHktZOV1ds4EcigUfmezoqP/ZO5WCuk827lVVoZ/qb8g1A4f+vx6ryLI6X9Fv5MgMtAg/lIvBOLnYWifH58YeSZiWwa9tRK+Ab4NEcOS8StrWS/Ib3sdY7V3bpdwOsPpZNZ9Z9VGoo7x61Bs7sTGnxvlbjrpfkbaSV9QpsVfuiYb2dLMmMtLKegDPr0bnQew+zufk21y1054zqVqm0dOo545ZxB3X7H491ZC7vQ4FuAAAAAElFTkSuQmCC"/>
+                  <img class="me-3" class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA49JREFUSEvFlkuoVnUUxX+L1KJQemElJY1CapKlkJDkAx8DaRBZGT20KGoSmWWJDWogaRriQCihLJDUVCIhyh5WiFBWiqCTaBBGqSlmapEZ7Vgf+3yce+45955PBPfk8v3vPnv999p7r/8W58l0nnDpGTgirgXuAi7PSx8Dtkj6pZckegKOiAnAduCiCsgp4A5Ju9uC9wr8HjC7Ifg6SQ+ec+CIGAp8DdwCfCVpkkEi4ktnCzjbCZL+aQNem3HW8WHHBdYC44C3gCsz6HZJUxP4c2BKnh8B5gF7gLl59rakX6uX6QccEVcBewH/tf0OXArdRjwIzJe0MYHvB1YA16S/L3scuCx/HwBulXS0DF4H3FTHE8BCZy7pTDlIluFxYBlwSQ3VGyXd1wgcEdOBbengjNYBrwCHTaGknweqX0RcD7yZJVkMPADcm9/MkPRJ8X2fjCPCozIZ+AMYI+lQFSgi7gaeLNXVNV4t6f0a36uBH4DhwGeSpjUB7wduBEzlC8BKSa5ZxyJiOfBsQ9YvSXq55Ouk5if9Q9w3km5uAnYd3i010nJJrqtB7wE6DQX8DbgXbD4vBGW6pE/T/zXgmfT5z5RL2lwLnB/cBpi+i13jQhQiwnM6NsswTtKP6T8G+D79t0mamefrASfyp8siaVdjc5Vo8g1N1RJJL2ag08Aw4HVJrnHXIsIz7vk9JumK9HeHm62/JPXr9CYBMZUXAkslLcpA1mMHeEPSExXgNcBjwElJI9L/VeA54JQkN1cfq5vjMtUbJM3JQDuA21Mcxkr6Kc9vAL4FDFhWtE2AJ2BwqiPCM+faFBcqN9edwAd5bWfvwBdUmmumpI4ORITVbEH6ezJmS9pS21wRsQ+4KcfJ9VlVGaeCvipz/v28JP+/YxHhyz8N+MzjtEeSH5iOVQWkEPzBBOQpYGLG2JoN91H1NhFRFpBux9cBzwA+zgCFZFr6XKc2knldvmZuwiUVyezOeD/gpOhsH4lHktZOV1ds4EcigUfmezoqP/ZO5WCuk827lVVoZ/qb8g1A4f+vx6ryLI6X9Fv5MgMtAg/lIvBOLnYWifH58YeSZiWwa9tRK+Ab4NEcOS8StrWS/Ib3sdY7V3bpdwOsPpZNZ9Z9VGoo7x61Bs7sTGnxvlbjrpfkbaSV9QpsVfuiYb2dLMmMtLKegDPr0bnQew+zufk21y1054zqVqm0dOo545ZxB3X7H491ZC7vQ4FuAAAAAElFTkSuQmCC"/>l
                   <div style="color: white;">Config Management</div>
                 </a>
               </li>
@@ -460,7 +448,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img class="me-3" src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -492,7 +480,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img class="me-3" src="../../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -749,7 +737,7 @@
                                   <div class="col-md-6">
                                     <div class="row">
                                       <img src="hai.png" class="ha">
-                                      <label class="col-sm-3 col-form-label">SATKER</label>
+                                      <label class="col-sm-3 col-form-label">Kode Akun</label>
                                       <div class="col" style="padding-right: 8px;">
                                         <select id="collapsible-state" class="select2 form-select" data-allow-clear="true">
                                             <option value="">521253</option>
@@ -763,7 +751,7 @@
                                           type="text"
                                           id="collapsible-fullname"
                                           class="form-control iki"
-                                          placeholder="nama satker" />
+                                          placeholder="nama akun" />
                                       </div>
                                     </div>
                                   </div>
@@ -774,38 +762,11 @@
                                       <img src="hai.png" class="ha">
                                       <label class="col-sm-3 col-form-label">Judul Laporan</label>
                                       <div class="col">
-                                        <input type="text" class="form-control" placeholder="judul laporan">
+                                        <input type="text" class="form-control" placeholder="judul akun belanja">
                                       </div>
                                       </div>
                                     </div>
                                   </div>
-
-
-                                  <!-- DIBAGIAN INI YANG SALAH, TOLONG BENARKAN -->
-                                  <div class="col-md-8">
-                                    <div class="row">
-                                      <img src="hai.png" class="ha">
-                                      <label class="col-sm-3 col-form-label">Tempat/Tanggal</label>
-                                      <div class="col" style="padding-right: 8px; margin-left: -52px;">
-                                        <select id="collapsible-state" class="select2 form-select" data-allow-clear="true">
-                                            <option value="">Jakarta</option>
-                                            <option value="AL">Bekasi</option>
-                                            <option value="AK">Surabaya</option>
-                                            <option value="AZ">Solo</option>
-                                        </select>
-                                      </div>
-                                      <div class="col">
-                                        <input
-                                          type="date"
-                                          id="collapsible-fullname"
-                                          class="form-control iki"
-                                          placeholder="nama satker" />
-                                      </div>
-                                    </div>
-
-
-                                  </div>
-                                  <br>
                                   <div class="mb-3 row">
                                     <div class="col-md-6">
                                         <div class="row">
@@ -854,7 +815,7 @@
                   </div>
               </div>
               <p></p>
-              <button type="button" class="btn btn-success" style="margin-left: 985px;">Download</button>
+              <button class="btn btn-danger btn-destroy" style="margin-left: 1020px;">Delete</button>
               <button class="btn btn-primary btn-initialize">Back</button>
 
               <!-- Content -->
@@ -885,28 +846,28 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="xassets/vendor/libs/popper/popper.js"></script>
-    <script src="xassets/vendor/js/bootstrap.js"></script>
-    <script src="xassets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="xassets/vendor/libs/node-waves/node-waves.js"></script>
+    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
 
-    <script src="xassets/vendor/libs/hammer/hammer.js"></script>
-    <script src="xassets/vendor/libs/i18n/i18n.js"></script>
-    <script src="xassets/vendor/libs/typeahead-js/typeahead.js"></script>
+    <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
 
-    <script src="xassets/vendor/js/menu.js"></script>
+    <script src="../../assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="xassets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-    <script src="xassets/vendor/libs/apex-charts/apexcharts.js"></script>
-    <script src="xassets/vendor/libs/swiper/swiper.js"></script>
+    <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <script src="../../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="../../assets/vendor/libs/swiper/swiper.js"></script>
 
     <!-- Main JS -->
-    <script src="xassets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="xassets/js/dashboards-ecommerce.js"></script>
+    <script src="../../assets/js/dashboards-ecommerce.js"></script>
   </body>
 </html>

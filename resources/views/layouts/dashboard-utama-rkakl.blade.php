@@ -28,10 +28,10 @@
       rel="stylesheet" />
 
     <!-- Icons -->
-    <link rel="stylesheet" href="../../assets/vendor/fonts/materialdesignicons.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/materialdesignicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
     <!-- Menu waves for no-customizer fix -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
 
     <!-- Core CSS -->
     <link rel="stylesheet" href="css/rtl/core.css" class="template-customizer-core-css" />
@@ -39,17 +39,17 @@
     <link rel="stylesheet" href="css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/swiper/swiper.css" />
 
     <!-- Page CSS -->
     <link rel="stylesheet" href="css/pages/cards-statistics.css" />
     <!-- Helpers -->
-    <script src="../../assets/vendor/js/helpers.js"></script>
+    <script src="assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
@@ -61,16 +61,14 @@
     .body {
       background-color: white;
     }
-
     .sayang {
       background-color: #324C91;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
       color: white;
     }
-
     .logo {
-      width: 250px;
-      height: 60px;
+      width: 220px;
+      height: 48px;
       margin-top: 30px;
       margin-bottom: -40px;
     }
@@ -179,7 +177,7 @@
           <ul class="menu-inner py-1 sayang">
             <!-- Dashboards -->
             <li class="menu-item active open">
-              <a href="javascript:void(0);" class="menu-link">
+              <a href="javascript:void(0);" class="menu-link" style="background-color: #30334E; margin-top: 10px;">
                 <i class="menu-icon tf-icons mdi mdi-home-outline" style="color: white;"></i>
                 <div data-i18n="Dashboards" style="color: white;">Dashboards</div>
               </a>
@@ -192,26 +190,26 @@
             </li>
             <li class="menu-item">
               <a href="app-email.html" class="menu-link">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARBJREFUSEvtllFKAzEQhr/fg2jtTTyCiAg+6E1s9SpqEemDN9CT1NqL/CWlu6xb2WbTlFg0kJcwM9/Mn0kYUWipEJffA7Z9ApxmVuJT0lczZl2x7SNgAlxlhlbhHoFbSQ4HTfA18LwnaBX2XNJbG3wH3K8tzjIn8L6ON5L00AaPgdHqUMradLZX8obCJAXON6k3wLYHQNgpay5pHhxTwHUyCeS6uoMCl5E6Qd4fXVKkLlOx7f/m6nPt6e+4D6XLNntzSfqISS4F3NlcsX/6QYE73/HepI65vxibbVIXGwTCrPUSU8EONpeSpu1BIAx7r8DFDoG7XJ+Am41hr/KwPQSOM8NnkhbNmFlnqz7J/j3wEvHW9B/esVB6AAAAAElFTkSuQmCC"/>s
-                <div data-i18n="Email" style="color: white;">RKAKL</div>
+                <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARBJREFUSEvtllFKAzEQhr/fg2jtTTyCiAg+6E1s9SpqEemDN9CT1NqL/CWlu6xb2WbTlFg0kJcwM9/Mn0kYUWipEJffA7Z9ApxmVuJT0lczZl2x7SNgAlxlhlbhHoFbSQ4HTfA18LwnaBX2XNJbG3wH3K8tzjIn8L6ON5L00AaPgdHqUMradLZX8obCJAXON6k3wLYHQNgpay5pHhxTwHUyCeS6uoMCl5E6Qd4fXVKkLlOx7f/m6nPt6e+4D6XLNntzSfqISS4F3NlcsX/6QYE73/HepI65vxibbVIXGwTCrPUSU8EONpeSpu1BIAx7r8DFDoG7XJ+Am41hr/KwPQSOM8NnkhbNmFlnqz7J/j3wEvHW9B/esVB6AAAAAElFTkSuQmCC"/>
+                <div style="color: white;">RKAKL</div>
               </a>
             </li>
             <li class="menu-item">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
-                  <div data-i18n="Invoice" style="color: white;">Master Data</div>
+                  <i class="menu-icon tf-icons mdi mdi-file-document-outline me-3" style="color: white;"></i>
+                  <div style="color: white;">Master Data</div>
                 </a>
                 <ul class="menu-sub">
                   <li class="menu-item">
                     <a href="app-invoice-list.html" class="menu-link">
                       <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
-                      <div data-i18n="List" style="color: white;">Kode Belanja</div>
+                      <div style="color: white;">Kode Belanja</div>
                     </a>
                   </li>
                   <li class="menu-item">
                     <a href="app-invoice-preview.html" class="menu-link">
                       <i class="menu-icon tf-icons mdi mdi-file-document-outline" style="color: white;"></i>
-                      <div data-i18n="Preview" style="color: white;">Kode SATKER</div>
+                      <div style="color: white;">Kode SATKER</div>
                     </a>
                   </li>
                 </ul>
@@ -226,14 +224,14 @@
             <!-- Icons -->
             <li class="menu-item">
               <a href="icons-mdi.html" class="menu-link">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJJJREFUSEvtldENgCAMRHubuImO4iiO5mZnNPFHQGtphMTyTx99vQZIo4NGXAnwZ+ZD9aGa5OLpHEBSL6uaJJ3BCacvsGe3pVqR6qJlkpN1BADW61216pqkA9ClOtdZS3Ab1db5xjqdBtSpLikjua/KeDeKqlT3CJ5FZHjoWPcteic4V696xtZHBthq7vW9/6neAJP9KB84NK5hAAAAAElFTkSuQmCC"/>
-                <div data-i18n="Icons" style="color: white;">Menu Management</div>
+                <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJJJREFUSEvtldENgCAMRHubuImO4iiO5mZnNPFHQGtphMTyTx99vQZIo4NGXAnwZ+ZD9aGa5OLpHEBSL6uaJJ3BCacvsGe3pVqR6qJlkpN1BADW61216pqkA9ClOtdZS3Ab1db5xjqdBtSpLikjua/KeDeKqlT3CJ5FZHjoWPcteic4V696xtZHBthq7vW9/6neAJP9KB84NK5hAAAAAElFTkSuQmCC"/>
+                <div style="color: white;">Menu Management</div>
               </a>
             </li>
             <li class="menu-item">
                 <a href="icons-mdi.html" class="menu-link">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA49JREFUSEvFlkuoVnUUxX+L1KJQemElJY1CapKlkJDkAx8DaRBZGT20KGoSmWWJDWogaRriQCihLJDUVCIhyh5WiFBWiqCTaBBGqSlmapEZ7Vgf+3yce+45955PBPfk8v3vPnv999p7r/8W58l0nnDpGTgirgXuAi7PSx8Dtkj6pZckegKOiAnAduCiCsgp4A5Ju9uC9wr8HjC7Ifg6SQ+ec+CIGAp8DdwCfCVpkkEi4ktnCzjbCZL+aQNem3HW8WHHBdYC44C3gCsz6HZJUxP4c2BKnh8B5gF7gLl59rakX6uX6QccEVcBewH/tf0OXArdRjwIzJe0MYHvB1YA16S/L3scuCx/HwBulXS0DF4H3FTHE8BCZy7pTDlIluFxYBlwSQ3VGyXd1wgcEdOBbengjNYBrwCHTaGknweqX0RcD7yZJVkMPADcm9/MkPRJ8X2fjCPCozIZ+AMYI+lQFSgi7gaeLNXVNV4t6f0a36uBH4DhwGeSpjUB7wduBEzlC8BKSa5ZxyJiOfBsQ9YvSXq55Ouk5if9Q9w3km5uAnYd3i010nJJrqtB7wE6DQX8DbgXbD4vBGW6pE/T/zXgmfT5z5RL2lwLnB/cBpi+i13jQhQiwnM6NsswTtKP6T8G+D79t0mamefrASfyp8siaVdjc5Vo8g1N1RJJL2ag08Aw4HVJrnHXIsIz7vk9JumK9HeHm62/JPXr9CYBMZUXAkslLcpA1mMHeEPSExXgNcBjwElJI9L/VeA54JQkN1cfq5vjMtUbJM3JQDuA21Mcxkr6Kc9vAL4FDFhWtE2AJ2BwqiPCM+faFBcqN9edwAd5bWfvwBdUmmumpI4ORITVbEH6ezJmS9pS21wRsQ+4KcfJ9VlVGaeCvipz/v28JP+/YxHhyz8N+MzjtEeSH5iOVQWkEPzBBOQpYGLG2JoN91H1NhFRFpBux9cBzwA+zgCFZFr6XKc2knldvmZuwiUVyezOeD/gpOhsH4lHktZOV1ds4EcigUfmezoqP/ZO5WCuk827lVVoZ/qb8g1A4f+vx6ryLI6X9Fv5MgMtAg/lIvBOLnYWifH58YeSZiWwa9tRK+Ab4NEcOS8StrWS/Ib3sdY7V3bpdwOsPpZNZ9Z9VGoo7x61Bs7sTGnxvlbjrpfkbaSV9QpsVfuiYb2dLMmMtLKegDPr0bnQew+zufk21y1054zqVqm0dOo545ZxB3X7H491ZC7vQ4FuAAAAAElFTkSuQmCC"/>
-                  <div data-i18n="Icons" style="color: white;">Config Management</div>
+                  <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA49JREFUSEvFlkuoVnUUxX+L1KJQemElJY1CapKlkJDkAx8DaRBZGT20KGoSmWWJDWogaRriQCihLJDUVCIhyh5WiFBWiqCTaBBGqSlmapEZ7Vgf+3yce+45955PBPfk8v3vPnv999p7r/8W58l0nnDpGTgirgXuAi7PSx8Dtkj6pZckegKOiAnAduCiCsgp4A5Ju9uC9wr8HjC7Ifg6SQ+ec+CIGAp8DdwCfCVpkkEi4ktnCzjbCZL+aQNem3HW8WHHBdYC44C3gCsz6HZJUxP4c2BKnh8B5gF7gLl59rakX6uX6QccEVcBewH/tf0OXArdRjwIzJe0MYHvB1YA16S/L3scuCx/HwBulXS0DF4H3FTHE8BCZy7pTDlIluFxYBlwSQ3VGyXd1wgcEdOBbengjNYBrwCHTaGknweqX0RcD7yZJVkMPADcm9/MkPRJ8X2fjCPCozIZ+AMYI+lQFSgi7gaeLNXVNV4t6f0a36uBH4DhwGeSpjUB7wduBEzlC8BKSa5ZxyJiOfBsQ9YvSXq55Ouk5if9Q9w3km5uAnYd3i010nJJrqtB7wE6DQX8DbgXbD4vBGW6pE/T/zXgmfT5z5RL2lwLnB/cBpi+i13jQhQiwnM6NsswTtKP6T8G+D79t0mamefrASfyp8siaVdjc5Vo8g1N1RJJL2ag08Aw4HVJrnHXIsIz7vk9JumK9HeHm62/JPXr9CYBMZUXAkslLcpA1mMHeEPSExXgNcBjwElJI9L/VeA54JQkN1cfq5vjMtUbJM3JQDuA21Mcxkr6Kc9vAL4FDFhWtE2AJ2BwqiPCM+faFBcqN9edwAd5bWfvwBdUmmumpI4ORITVbEH6ezJmS9pS21wRsQ+4KcfJ9VlVGaeCvipz/v28JP+/YxHhyz8N+MzjtEeSH5iOVQWkEPzBBOQpYGLG2JoN91H1NhFRFpBux9cBzwA+zgCFZFr6XKc2knldvmZuwiUVyezOeD/gpOhsH4lHktZOV1ds4EcigUfmezoqP/ZO5WCuk827lVVoZ/qb8g1A4f+vx6ryLI6X9Fv5MgMtAg/lIvBOLnYWifH58YeSZiWwa9tRK+Ab4NEcOS8StrWS/Ib3sdY7V3bpdwOsPpZNZ9Z9VGoo7x61Bs7sTGnxvlbjrpfkbaSV9QpsVfuiYb2dLMmMtLKegDPr0bnQew+zufk21y1054zqVqm0dOo545ZxB3X7H491ZC7vQ4FuAAAAAElFTkSuQmCC"/>
+                  <div style="color: white;">Config Management</div>
                 </a>
               </li>
 
@@ -243,8 +241,8 @@
             </li>
             <li class="menu-item">
               <a href="https://pixinvent.ticksy.com/" target="_blank" class="menu-link">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAuVJREFUSEvtlVuojmkUx39/hwnRmIgLGalJUyPnXAiZ0MbdUEPjVGYuFHLM8QKlDC7sCeVQSpJkZu5EEjNKiZzacSOHzDiU84VC+E9rWluf3fd972dvtW+su/d9nmf91lrPf61HtJKplbh8Bjer8rYHAFuBGZLu1+KksNS224VDYCnQP53+AeyQdMr2F8AV4FvgRuyR9LIIXhVsO9Z/ByZXcDQbOAD8BszLPfWSFrcUvBzYlE4eZxDdMpA2wBtgkKSrto8BdcAroLekh9XgFTPObONwgG4CwyUFHNsjgdPwf1fskjTXdlxDQ8IWSNreXHAv4N88vELS5lJHtk8AY4GLkoZmQBFg3yi/pNBFRauWcXegsVyrJP3aBHwcGB9ZSgpVRyXuRJmB/ZJmNQucjiLjyPwWMEzSk5JS/wW0BfZK+jmv5m2WPxQ/vyXghUB9OngEHAZ6AD8AIa7XGVCD7QBty71TJP3ZEnBcRcCmlHFiYLqkg7aHAGeB9kAE2FPSu2aDs6wxQOK+lgDfxVVm7+6UdMb2YOAk0LUEdAqYKeluJXjh5CoaBLY7AaOBCcAcoEueCWHWSbpUzkc1VXcAJsaAyExD5Y0WWYeCrwLnJIXQQtUdgbXAitz4HBgh6VpTeFmw7ejPfanooqRj/W9gmqQHGcBU4GAq/IKkYYVg2z/moVBtWER9uQw9WmlEqjuW4z5HSrqd8HWZfXxOknS01McHGdseBYQwwukLYGVOoafl0rb9TT4Oi3L9OjAgXifbnXPyfQkckjStGjiet5hCMfzHSYoSFprtjRlk7F0tKb7jzvcAvwDPJH1VFpxtcTEX10uKUtVkObVCvQOBa5Ki7QIc0ICHfS3pn0aH70vdZPL0kRSqrdlsLwO25IHu8ZLZ7gf8lP92S7pXDrwG2JALbSRFy9RsticBR/JAPKHnqx0uzfi9CiV99GCxPSaFGbzvG3u7EvyjATWXoGDjZ/CnqmShn1Yr9X/wPgkuPh8IrQAAAABJRU5ErkJggg=="/>
-                <div data-i18n="Support" style="color: white;">Users</div>
+                <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAuVJREFUSEvtlVuojmkUx39/hwnRmIgLGalJUyPnXAiZ0MbdUEPjVGYuFHLM8QKlDC7sCeVQSpJkZu5EEjNKiZzacSOHzDiU84VC+E9rWluf3fd972dvtW+su/d9nmf91lrPf61HtJKplbh8Bjer8rYHAFuBGZLu1+KksNS224VDYCnQP53+AeyQdMr2F8AV4FvgRuyR9LIIXhVsO9Z/ByZXcDQbOAD8BszLPfWSFrcUvBzYlE4eZxDdMpA2wBtgkKSrto8BdcAroLekh9XgFTPObONwgG4CwyUFHNsjgdPwf1fskjTXdlxDQ8IWSNreXHAv4N88vELS5lJHtk8AY4GLkoZmQBFg3yi/pNBFRauWcXegsVyrJP3aBHwcGB9ZSgpVRyXuRJmB/ZJmNQucjiLjyPwWMEzSk5JS/wW0BfZK+jmv5m2WPxQ/vyXghUB9OngEHAZ6AD8AIa7XGVCD7QBty71TJP3ZEnBcRcCmlHFiYLqkg7aHAGeB9kAE2FPSu2aDs6wxQOK+lgDfxVVm7+6UdMb2YOAk0LUEdAqYKeluJXjh5CoaBLY7AaOBCcAcoEueCWHWSbpUzkc1VXcAJsaAyExD5Y0WWYeCrwLnJIXQQtUdgbXAitz4HBgh6VpTeFmw7ejPfanooqRj/W9gmqQHGcBU4GAq/IKkYYVg2z/moVBtWER9uQw9WmlEqjuW4z5HSrqd8HWZfXxOknS01McHGdseBYQwwukLYGVOoafl0rb9TT4Oi3L9OjAgXifbnXPyfQkckjStGjiet5hCMfzHSYoSFprtjRlk7F0tKb7jzvcAvwDPJH1VFpxtcTEX10uKUtVkObVCvQOBa5Ki7QIc0ICHfS3pn0aH70vdZPL0kRSqrdlsLwO25IHu8ZLZ7gf8lP92S7pXDrwG2JALbSRFy9RsticBR/JAPKHnqx0uzfi9CiV99GCxPSaFGbzvG3u7EvyjATWXoGDjZ/CnqmShn1Yr9X/wPgkuPh8IrQAAAABJRU5ErkJggg=="/>
+                <div style="color: white;">Users</div>
               </a>
             </li>
             <li class="menu-item">
@@ -252,9 +250,9 @@
                 href="https://demos.pixinvent.com/materialize-html-admin-template/documentation/"
                 target="_blank"
                 class="menu-link">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAddJREFUSEvNl79LHUEQxz/foELAQkSIQlALbUJATBGwFoV0YpHCNhbijyaJYCMmYBPESpNU8Q9IIViK2CZdDIIiCKJgY2NhrU7Yx60cet7e23ePl2kO7nbnM9/dmd050SBTg7gEwWbWDowDz2sI8hzYlHTpfeSCzawT+As8qwHqp14AA5LcM1+xmc0CayVAvYtZSV+LgD8BSwHwFbANPAVGgZac8Z8lOZ9BxXngW2AC+CnJnDMz6wYOgNZH4KWANyS9uw8ws1XgfT3BM5K+ZYCngco+ZlgpihclLWeAXU5U9rEQ2Mzu9lNSpczS7zKcHAEvJd34b2bWDBwCffUEO9+7wDzggngBfAGGq8rqCMUx5f1wjyPB18BvwJXWE2AIaKqn4pNkWbf8EZjkhDtix4AFoKfs5PoFvJHkTqxMSy6WHeDVvQHRS+2UDuZBUxneAewDXSl4NHhS0o+iWWVmH4GVMsAfgD9FwcDrJBf8lGjFVTBrO7nKvo/nJK27kO46kEfquBc4DtRm0VVwNd8v6TQITmrT1eNICT3XjqQzH2Wu4qJSYsb9F+Ap4HtM9Ok5/koN+UkrbgP2AJdQ0VY1OEkk16S9BVzTFmW+iwxNDv5JhBzEfm8Y+B+dp/MfCUcgiwAAAABJRU5ErkJggg=="/>
+                <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAddJREFUSEvNl79LHUEQxz/foELAQkSIQlALbUJATBGwFoV0YpHCNhbijyaJYCMmYBPESpNU8Q9IIViK2CZdDIIiCKJgY2NhrU7Yx60cet7e23ePl2kO7nbnM9/dmd050SBTg7gEwWbWDowDz2sI8hzYlHTpfeSCzawT+As8qwHqp14AA5LcM1+xmc0CayVAvYtZSV+LgD8BSwHwFbANPAVGgZac8Z8lOZ9BxXngW2AC+CnJnDMz6wYOgNZH4KWANyS9uw8ws1XgfT3BM5K+ZYCngco+ZlgpihclLWeAXU5U9rEQ2Mzu9lNSpczS7zKcHAEvJd34b2bWDBwCffUEO9+7wDzggngBfAGGq8rqCMUx5f1wjyPB18BvwJXWE2AIaKqn4pNkWbf8EZjkhDtix4AFoKfs5PoFvJHkTqxMSy6WHeDVvQHRS+2UDuZBUxneAewDXSl4NHhS0o+iWWVmH4GVMsAfgD9FwcDrJBf8lGjFVTBrO7nKvo/nJK27kO46kEfquBc4DtRm0VVwNd8v6TQITmrT1eNICT3XjqQzH2Wu4qJSYsb9F+Ap4HtM9Ok5/koN+UkrbgP2AJdQ0VY1OEkk16S9BVzTFmW+iwxNDv5JhBzEfm8Y+B+dp/MfCUcgiwAAAABJRU5ErkJggg=="/>
                 <br>
-                <div data-i18n="Documentation" style="color: white;">Role</div>
+                <div style="color: white;">Role</div>
               </a>
             </li>
           </ul>
@@ -788,7 +786,7 @@
     <!-- build:js assets/vendor/js/core.js -->
     <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
     <script src="../../assets/vendor/libs/popper/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
     <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
 
@@ -796,7 +794,7 @@
     <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
     <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
 
-    <script src="js/menu.js"></script>
+    <script src="../../assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
@@ -805,9 +803,9 @@
     <script src="../../assets/vendor/libs/swiper/swiper.js"></script>
 
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="js/dashboards-ecommerce.js"></script>
+    <script src="../../assets/js/dashboards-ecommerce.js"></script>
   </body>
 </html>
